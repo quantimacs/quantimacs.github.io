@@ -44,6 +44,21 @@ body {
 	line-height: 1;
 }
 
+.logo-container {
+	display: flex;
+	align-items: center;
+  }
+
+.logo-container img {
+height: 45px;
+margin-right: 10px;
+}
+
+.logo-container h1 {
+font-size: 20px;
+margin: 0;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -3180,8 +3195,8 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
-				opacity: 0;
-				visibility: hidden;
+				font-size: 25px;
+				visibility: visible;
 			}
 
 		@media screen and (max-width: 736px) {
